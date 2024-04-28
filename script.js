@@ -67,7 +67,7 @@ let paciente3 = new Paciente("Claudino", 87, "Masculino", "Hipertensión");
 // ejemplo de búsqueda por nombre
 console.log(paciente1.buscarPorNombre("Eulalio")); // Debería mostrar el objeto paciente1
 
-// ejemplo de mostrar todos los pacientes
+// ejemplo de mostrar todos los pacientes de la lista
 paciente1.mostrarTodos();
 paciente2.mostrarTodos();
 paciente3.mostrarTodos();
